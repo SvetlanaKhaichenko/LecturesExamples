@@ -18,7 +18,7 @@ Console.WriteLine("*");
 int x = xa, y = ya;
 
 int count = 0;
-while(count < 8000)
+while(count < 5000)
 {
     int what = new Random().Next (0,3); //  1. 2.
     if (what == 0)
@@ -36,7 +36,7 @@ while(count < 8000)
         x = (x + xc) / 2;
         y = (y + yc) / 2;
     }
-
+    
     Console.SetCursorPosition(x,y);
     Console.WriteLine("*");
     count++;
